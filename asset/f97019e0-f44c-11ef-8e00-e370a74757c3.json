@@ -1,0 +1,93 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "f61d4560-f44c-11ef-8e00-e370a74757c3"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "6b9e59f0-db93-11ef-9dbc-834dadad7dd9"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "f97019e0-f44c-11ef-8e00-e370a74757c3"
+    },
+    "label" : "Pallet Area",
+    "name" : "Pallet Dispenser",
+    "type" : "Pallet Machine"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f97019e0-f44c-11ef-8e00-e370a74757c3"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "5e4badc0-f425-11ef-8e00-e370a74757c3"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2790590
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f97019e0-f44c-11ef-8e00-e370a74757c3"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "5e892bf0-f425-11ef-8e00-e370a74757c3"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2790592
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f97019e0-f44c-11ef-8e00-e370a74757c3"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "5ece4b40-f425-11ef-9dbc-834dadad7dd9"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2790591
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f97019e0-f44c-11ef-8e00-e370a74757c3"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "5f1d2e90-f425-11ef-8e00-e370a74757c3"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2790647
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f97019e0-f44c-11ef-8e00-e370a74757c3"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "7cfe31b0-f41c-11ef-9dbc-834dadad7dd9"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2790588
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

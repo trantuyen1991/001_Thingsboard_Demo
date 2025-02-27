@@ -1,0 +1,25 @@
+{
+  "entityType" : "CUSTOMER",
+  "entity" : {
+    "additionalInfo" : null,
+    "address" : "17, boulevard Albert",
+    "address2" : null,
+    "city" : "Berlin",
+    "country" : "Germany",
+    "email" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "CUSTOMER",
+      "id" : "6ca123f0-db93-11ef-9dbc-834dadad7dd9"
+    },
+    "name" : "Demo Customer",
+    "phone" : null,
+    "state" : null,
+    "title" : "Demo Customer",
+    "zip" : "98000"
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

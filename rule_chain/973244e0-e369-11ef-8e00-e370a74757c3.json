@@ -1,0 +1,93 @@
+{
+  "entityType" : "RULE_CHAIN",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : "Processes VFD alarms by analyzing the status word."
+    },
+    "configuration" : null,
+    "debugMode" : false,
+    "externalId" : null,
+    "firstRuleNodeId" : {
+      "entityType" : "RULE_NODE",
+      "id" : "9c98c1b0-e36a-11ef-8e00-e370a74757c3"
+    },
+    "id" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "973244e0-e369-11ef-8e00-e370a74757c3"
+    },
+    "name" : "VFD Alarm Processing",
+    "root" : false,
+    "type" : "CORE"
+  },
+  "metaData" : {
+    "connections" : [ {
+      "fromIndex" : 0,
+      "toIndex" : 1,
+      "type" : "True"
+    } ],
+    "firstNodeIndex" : 0,
+    "nodes" : [ {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 374,
+        "layoutY" : 148
+      },
+      "configuration" : {
+        "scriptLang" : "TBEL",
+        "jsScript" : "{\n  \"scriptLang\": \"JS\",\n  \"jsScript\": \"var statusWord = parseInt(msg.status_word, 10); return {\\n            \\\"bit_0\\\": (statusWord & (1 << 0)) !== 0,\\n            \\\"bit_1\\\": (statusWord & (1 << 1)) !== 0,\\n            \\\"bit_2\\\": (statusWord & (1 << 2)) !== 0,\\n            \\\"bit_3\\\": (statusWord & (1 << 3)) !== 0,\\n            \\\"bit_4\\\": (statusWord & (1 << 4)) !== 0,\\n            \\\"bit_5\\\": (statusWord & (1 << 5)) !== 0\\n          };\"\n}",
+        "tbelScript" : "return msg.nFb_Status > 20;"
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "9c98c1b0-e36a-11ef-8e00-e370a74757c3"
+      },
+      "name" : "Extract Bit",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
+    }, {
+      "additionalInfo" : {
+        "description" : "",
+        "layoutX" : 727,
+        "layoutY" : 151
+      },
+      "configuration" : {
+        "alarmType" : "General Alarm",
+        "scriptLang" : "TBEL",
+        "alarmDetailsBuildJs" : "var details = {};\nif (metadata.prevAlarmDetails) {\n    details = JSON.parse(metadata.prevAlarmDetails);\n    //remove prevAlarmDetails from metadata\n    delete metadata.prevAlarmDetails;\n    //now metadata is the same as it comes IN this rule node\n}\n\n\nreturn details;",
+        "alarmDetailsBuildTbel" : "var details = {};\nif (metadata.prevAlarmDetails != null) {\n    details = JSON.parse(metadata.prevAlarmDetails);\n    //remove prevAlarmDetails from metadata\n    metadata.remove('prevAlarmDetails');\n    //now metadata is the same as it comes IN this rule node\n}\n\n\nreturn details;",
+        "severity" : "CRITICAL",
+        "propagate" : false,
+        "propagateToOwner" : false,
+        "propagateToTenant" : false,
+        "useMessageAlarmData" : false,
+        "overwriteAlarmDetails" : false,
+        "dynamicSeverity" : false,
+        "relationTypes" : [ ]
+      },
+      "configurationVersion" : 0,
+      "createdTime" : 0,
+      "debugSettings" : null,
+      "externalId" : null,
+      "id" : {
+        "entityType" : "RULE_NODE",
+        "id" : "1fb8e9c0-e36c-11ef-8e00-e370a74757c3"
+      },
+      "name" : "Motor Overload",
+      "queueName" : null,
+      "ruleChainId" : null,
+      "singletonMode" : false,
+      "type" : "org.thingsboard.rule.engine.action.TbCreateAlarmNode"
+    } ],
+    "ruleChainConnections" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

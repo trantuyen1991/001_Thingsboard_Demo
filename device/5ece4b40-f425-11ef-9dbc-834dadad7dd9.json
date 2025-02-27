@@ -1,0 +1,110 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "lastConnectedGateway" : "9ed1cdc0-db93-11ef-9dbc-834dadad7dd9"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "6b9e59f0-db93-11ef-9dbc-834dadad7dd9"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "04733420-f44e-11ef-8e00-e370a74757c3"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "5ece4b40-f425-11ef-9dbc-834dadad7dd9"
+    },
+    "label" : null,
+    "name" : "OPC_ECU_PD_CY_CLAMP",
+    "softwareId" : null,
+    "type" : "Cylinder"
+  },
+  "credentials" : {
+    "credentialsId" : "x3xEE3Sg8HRrmlGd2zw1",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "9ed1cdc0-db93-11ef-9dbc-834dadad7dd9"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "5ece4b40-f425-11ef-9dbc-834dadad7dd9"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2784885
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "f97019e0-f44c-11ef-8e00-e370a74757c3"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "5ece4b40-f425-11ef-9dbc-834dadad7dd9"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 2790591
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1740617594162,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1740579807085,
+      "longValue" : 1740579807053,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1740618698433,
+      "longValue" : 1740618697398,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1740618677399,
+      "longValue" : 1740618677398,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1740618194434,
+      "longValue" : 1740618194434,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ ]
+  }
+}

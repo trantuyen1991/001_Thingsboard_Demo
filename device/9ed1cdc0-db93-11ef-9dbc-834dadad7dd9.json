@@ -1,0 +1,212 @@
+{
+  "entityType" : "DEVICE",
+  "entity" : {
+    "additionalInfo" : {
+      "gateway" : true
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "deviceData" : {
+      "configuration" : {
+        "type" : "DEFAULT"
+      },
+      "transportConfiguration" : {
+        "type" : "DEFAULT"
+      }
+    },
+    "deviceProfileId" : {
+      "entityType" : "DEVICE_PROFILE",
+      "id" : "68ffba40-db93-11ef-9dbc-834dadad7dd9"
+    },
+    "externalId" : null,
+    "firmwareId" : null,
+    "id" : {
+      "entityType" : "DEVICE",
+      "id" : "9ed1cdc0-db93-11ef-9dbc-834dadad7dd9"
+    },
+    "label" : "",
+    "name" : "TTC_Rasp01",
+    "softwareId" : null,
+    "type" : "default"
+  },
+  "credentials" : {
+    "credentialsId" : "CmSvLs4mAxJL4FDsTAhI",
+    "credentialsType" : "ACCESS_TOKEN",
+    "credentialsValue" : null
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "9ed1cdc0-db93-11ef-9dbc-834dadad7dd9"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "8cf15db0-f3c5-11ef-9dbc-834dadad7dd9"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2771149
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "9ed1cdc0-db93-11ef-9dbc-834dadad7dd9"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "8d323740-f3c5-11ef-9dbc-834dadad7dd9"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2771150
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "9ed1cdc0-db93-11ef-9dbc-834dadad7dd9"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "8d919550-f3c5-11ef-8e00-e370a74757c3"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2771151
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "9ed1cdc0-db93-11ef-9dbc-834dadad7dd9"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "5e4badc0-f425-11ef-8e00-e370a74757c3"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2784883
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "9ed1cdc0-db93-11ef-9dbc-834dadad7dd9"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "5e892bf0-f425-11ef-8e00-e370a74757c3"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2784884
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "9ed1cdc0-db93-11ef-9dbc-834dadad7dd9"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "5ece4b40-f425-11ef-9dbc-834dadad7dd9"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2784885
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "9ed1cdc0-db93-11ef-9dbc-834dadad7dd9"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "5f1d2e90-f425-11ef-8e00-e370a74757c3"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2784886
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "DEVICE",
+      "id" : "9ed1cdc0-db93-11ef-9dbc-834dadad7dd9"
+    },
+    "to" : {
+      "entityType" : "DEVICE",
+      "id" : "7cfe31b0-f41c-11ef-9dbc-834dadad7dd9"
+    },
+    "type" : "Created",
+    "typeGroup" : "COMMON",
+    "version" : 2784105
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : true,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "active",
+      "lastUpdateTs" : 1740617547274,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[]",
+      "key" : "inactive_connectors",
+      "lastUpdateTs" : 1740562631971,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "inactivityAlarmTime",
+      "lastUpdateTs" : 1740585031454,
+      "longValue" : 1740585030905,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastActivityTime",
+      "lastUpdateTs" : 1740618785448,
+      "longValue" : 1740618784415,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastConnectTime",
+      "lastUpdateTs" : 1740617547274,
+      "longValue" : 1740617547274,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : null,
+      "key" : "lastDisconnectTime",
+      "lastUpdateTs" : 1740584417796,
+      "longValue" : 1740584417795,
+      "strValue" : null
+    } ],
+    "SHARED_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "{\"mode\":\"advanced\",\"name\":\"OPC_ECU\",\"type\":\"opcua\",\"enableRemoteLogging\":false,\"logLevel\":\"INFO\",\"configuration\":\"opcEcu.json\",\"configurationJson\":{\"server\":{\"url\":\"opc.tcp://192.168.1.25:4840\",\"timeoutInMillis\":10000,\"scanPeriodInMillis\":5000,\"pollPeriodInMillis\":5000,\"enableSubscriptions\":true,\"subCheckPeriodInMillis\":100,\"showMap\":false,\"security\":\"Basic128Rsa15\",\"identity\":{\"type\":\"anonymous\"}},\"mapping\":[{\"deviceNodePattern\":\"Root\\\\.Objects\\\\._00_GP\\\\._01_Axis_X\",\"deviceNodeSource\":\"path\",\"deviceInfo\":{\"deviceNameExpression\":\"OPC_ECU_X\",\"deviceNameExpressionSource\":\"constant\",\"deviceProfileExpression\":\"default\",\"deviceProfileExpressionSource\":\"constant\"},\"timeseries\":[{\"key\":\"bFb_X_Move_FWD\",\"type\":\"identifier\",\"value\":\"ns=2;s=_00_GP._01_Axis_X.PanelPC:bFb_X_Move_FWD\"},{\"key\":\"bFb_X_Move_REV\",\"type\":\"identifier\",\"value\":\"ns=2;s=_00_GP._01_Axis_X.PanelPC:bFb_X_Move_REV\"}]},{\"deviceNodePattern\":\"Root\\\\.Objects\\\\._00_GP\\\\._02_Axis_Z\",\"deviceNodeSource\":\"path\",\"deviceInfo\":{\"deviceNameExpression\":\"OPC_ECU_Z\",\"deviceNameExpressionSource\":\"constant\",\"deviceProfileExpression\":\"default\",\"deviceProfileExpressionSource\":\"constant\"},\"timeseries\":[{\"key\":\"bFb_Z_Move_FWD\",\"type\":\"identifier\",\"value\":\"ns=2;s=_00_GP._02_Axis_Z.PanelPC:bFb_Z_Move_FWD\"},{\"key\":\"bFb_Z_Move_REV\",\"type\":\"identifier\",\"value\":\"ns=2;s=_00_GP._02_Axis_Z.PanelPC:bFb_Z_Move_REV\"}]},{\"deviceNodePattern\":\"Root\\\\.Objects\\\\._00_GP\",\"deviceNodeSource\":\"path\",\"deviceInfo\":{\"deviceNameExpression\":\"OPC_ECU_GP_COM\",\"deviceNameExpressionSource\":\"constant\",\"deviceProfileExpression\":\"default\",\"deviceProfileExpressionSource\":\"constant\"},\"timeseries\":[{\"key\":\"G1_nFb_Alarm\",\"type\":\"identifier\",\"value\":\"ns=2;s=_00_GP.C:G1_nFb_Alarm\"},{\"key\":\"G2_nFb_Alarm\",\"type\":\"identifier\",\"value\":\"ns=2;s=_00_GP.C:G2_nFb_Alarm\"},{\"key\":\"G3_nFb_Alarm\",\"type\":\"identifier\",\"value\":\"ns=2;s=_00_GP.C:G3_nFb_Alarm\"},{\"key\":\"G4_nFb_Alarm\",\"type\":\"identifier\",\"value\":\"ns=2;s=_00_GP.C:G4_nFb_Alarm\"},{\"key\":\"G5_nFb_Alarm\",\"type\":\"identifier\",\"value\":\"ns=2;s=_00_GP.C:G5_nFb_Alarm\"},{\"key\":\"G6_nFb_Alarm\",\"type\":\"identifier\",\"value\":\"ns=2;s=_00_GP.C:G6_nFb_Alarm\"},{\"key\":\"G7_nFb_Alarm\",\"type\":\"identifier\",\"value\":\"ns=2;s=_00_GP.C:G7_nFb_Alarm\"},{\"key\":\"bCmd_Pause\",\"type\":\"identifier\",\"value\":\"ns=2;s=_00_GP.PanelPC:bCmd_Pause\"},{\"key\":\"bCmd_Reset\",\"type\":\"identifier\",\"value\":\"ns=2;s=_00_GP.PanelPC:bCmd_Reset\"},{\"key\":\"bFb_AutoRunning\",\"type\":\"identifier\",\"value\":\"ns=2;s=_00_GP.PanelPC:bFb_AutoRunning\"},{\"key\":\"bFb_ControlMode\",\"type\":\"identifier\",\"value\":\"ns=2;s=_00_GP.PanelPC:bFb_ControlMode\"},{\"key\":\"bFb_Error\",\"type\":\"identifier\",\"value\":\"ns=2;s=_00_GP.PanelPC:bFb_Error\"}]},{\"deviceNodePattern\":\"Root\\\\.Objects\\\\._01_PD\",\"deviceNodeSource\":\"path\",\"deviceInfo\":{\"deviceNameExpression\":\"OPC_ECU_PD_COM\",\"deviceNameExpressionSource\":\"constant\",\"deviceProfileExpression\":\"default\",\"deviceProfileExpressionSource\":\"constant\"},\"timeseries\":[{\"key\":\"nFb_Total_Error\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD.C:PD_nFb_Total_Error\"},{\"key\":\"bFb_AutoRunning\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD.C:PD_bFb_AutoRunning\"},{\"key\":\"bFb_Error\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD.C:PD_bFb_Error\"},{\"key\":\"bFb_Mode\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD.C:PD_bFb_Mode\"},{\"key\":\"bFb_ReadyForGripper\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD.C:PD_bFb_ReadyForGripper\"},{\"key\":\"nFb_Alarm\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD.C:PD_nFb_Alarm\"},{\"key\":\"nFb_MachineStaus\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD.C:PD_nFb_MachineStaus\"},{\"key\":\"nFb_ProcessIndicator\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD.C:PD_nFb_ProcessIndicator\"},{\"key\":\"nFb_TotalPallet\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD.C:PD_nFb_TotalPallet\"}]},{\"deviceNodePattern\":\"Root\\\\.Objects\\\\._01_PD\\\\._01_CV\",\"deviceNodeSource\":\"path\",\"deviceInfo\":{\"deviceNameExpression\":\"OPC_ECU_PD_CV\",\"deviceNameExpressionSource\":\"constant\",\"deviceProfileExpression\":\"default\",\"deviceProfileExpressionSource\":\"constant\"},\"timeseries\":[{\"key\":\"nFb_FaultCode\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._01_CV.20_CV:nFb_FaultCode\"},{\"key\":\"nFb_OutputCurrent\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._01_CV.20_CV:nFb_OutputCurrent\"},{\"key\":\"nFb_OutputFre\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._01_CV.20_CV:nFb_OutputFre\"},{\"key\":\"nFb_StatusWord\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._01_CV.20_CV:nFb_StatusWord\"},{\"key\":\"nSp_ReferenceFre\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._01_CV.20_CV:nSp_ReferenceFre\"},{\"key\":\"bFb_Error\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._01_CV.C:PD_Cv_bFb_Error\"},{\"key\":\"bFb_Running\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._01_CV.C:PD_Cv_bFb_Running\"}]},{\"deviceNodePattern\":\"Root\\\\.Objects\\\\._01_PD\\\\._02_Cy_Lifter\",\"deviceNodeSource\":\"path\",\"deviceInfo\":{\"deviceNameExpression\":\"OPC_ECU_PD_CY_LIFT\",\"deviceNameExpressionSource\":\"constant\",\"deviceProfileExpression\":\"default\",\"deviceProfileExpressionSource\":\"constant\"},\"timeseries\":[{\"key\":\"nFb_ErrorCount\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._02_Cy_Lifter.C:PD_Cy_Lift_nFb_ErrorCount\"},{\"key\":\"nFb_OperateCount\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._02_Cy_Lifter.C:PD_Cy_Lift_nFb_OperateCount\"},{\"key\":\"nFb_Status\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._02_Cy_Lifter.C:PD_Cy_Lift_nFb_Status\"}]},{\"deviceNodePattern\":\"Root\\\\.Objects\\\\._01_PD\\\\._03_Cy_Clamper\",\"deviceNodeSource\":\"path\",\"deviceInfo\":{\"deviceNameExpression\":\"OPC_ECU_PD_CY_CLAMP\",\"deviceNameExpressionSource\":\"constant\",\"deviceProfileExpression\":\"default\",\"deviceProfileExpressionSource\":\"constant\"},\"timeseries\":[{\"key\":\"nFb_ErrorCount\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._03_Cy_Clamper.C:PD_Cy_Clamp_nFb_ErrorCount\"},{\"key\":\"nFb_OperateCount\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._03_Cy_Clamper.C:PD_Cy_Clamp_nFb_OperateCount\"},{\"key\":\"nFb_Status\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._03_Cy_Clamper.C:PD_Cy_Clamp_nFb_Status\"}]},{\"deviceNodePattern\":\"Root\\\\.Objects\\\\._01_PD\\\\._04_Ss\",\"deviceNodeSource\":\"path\",\"deviceInfo\":{\"deviceNameExpression\":\"OPC_ECU_PD_INPUT\",\"deviceNameExpressionSource\":\"constant\",\"deviceProfileExpression\":\"default\",\"deviceProfileExpressionSource\":\"constant\"},\"timeseries\":[{\"key\":\"fbPb01_Reset\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._04_Ss.C:PD_fbPb01_Reset\"},{\"key\":\"fbPb02_Estop\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._04_Ss.C:PD_fbPb02_Estop\"},{\"key\":\"fbPs01_PressureSw\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._04_Ss.C:PD_fbPs01_PressureSw\"},{\"key\":\"fbSs01_PalletInlet\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._04_Ss.C:PD_fbSs01_PalletInlet\"},{\"key\":\"fbSs02_PalletOutlet\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._04_Ss.C:PD_fbSs02_PalletOutlet\"},{\"key\":\"fbSs03_PalletEmpty\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._04_Ss.C:PD_fbSs03_PalletEmpty\"},{\"key\":\"fbSw01_Auto\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._04_Ss.C:PD_fbSw01_Auto\"},{\"key\":\"fbSw01_Man\",\"type\":\"identifier\",\"value\":\"ns=2;s=_01_PD._04_Ss.C:PD_fbSw01_Man\"}]}],\"name\":\"OPC_ECU\",\"id\":\"d92a0836-f4ec-4341-999d-b430ea326200\",\"logLevel\":\"INFO\",\"enableRemoteLogging\":false,\"configVersion\":\"3.7.0\"},\"configVersion\":\"3.7.0\",\"ts\":1740562631750}",
+      "key" : "OPC_ECU",
+      "lastUpdateTs" : 1740562631974,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : null,
+      "jsonValue" : "[\"OPC_ECU\"]",
+      "key" : "active_connectors",
+      "lastUpdateTs" : 1740562631968,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  }
+}

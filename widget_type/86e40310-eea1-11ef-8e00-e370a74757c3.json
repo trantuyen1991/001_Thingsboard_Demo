@@ -1,0 +1,37 @@
+{
+  "entityType" : "WIDGET_TYPE",
+  "entity" : {
+    "fqn" : "ttc_button",
+    "name" : "TTC_Button",
+    "deprecated" : false,
+    "image" : "tb-image;/api/images/system/action-button.svg",
+    "description" : "Facilitates single-click navigation to other dashboards, states, or custom actions. Configurable settings allow for on-click action definition and conditions for button activation or deactivation. It offers various layouts and custom styling options for different states.",
+    "descriptor" : {
+      "type" : "latest",
+      "sizeX" : 3,
+      "sizeY" : 1,
+      "resources" : [ ],
+      "templateHtml" : "<tb-action-button-widget \n    [ctx]=\"ctx\"\n    [widgetTitlePanel]=\"widgetTitlePanel\">\n</tb-action-button-widget>",
+      "templateCss" : "#container tb-markdown-widget {\n    height: 100%;\n    display: block;\n}\n\n#container tb-markdown-widget .tb-markdown-view {\n    height: 100%;\n    overflow: auto;\n}\n",
+      "controllerScript" : "self.onInit = function() {\n    self.ctx.$scope.actionWidget.onInit();\n}\n\nself.actionSources = function() {\n    return {\n        'click': {\n            name: 'widget-action.click',\n            multiple: false\n        }\n    };\n}\n\nself.typeParameters = function() {\n    return {\n        dataKeysOptional: true,\n        datasourcesOptional: true,\n        maxDatasources: 1,\n        maxDataKeys: 0,\n        singleEntity: true,\n        previewWidth: '100px',\n        previewHeight: '500px',\n        embedTitlePanel: true,\n        overflowVisible: true,\n        hideDataSettings: true\n    };\n}\n\nself.onDestroy = function() {}",
+      "settingsSchema" : "",
+      "dataKeySettingsSchema" : "",
+      "settingsDirective" : "tb-action-button-widget-settings",
+      "hasBasicMode" : true,
+      "basicModeDirective" : "tb-action-button-basic-config",
+      "defaultConfig" : "{\"datasources\":[],\"timewindow\":{\"realtime\":{\"timewindowMs\":60000}},\"showTitle\":false,\"backgroundColor\":\"#FFFFFF01\",\"color\":\"rgba(0, 0, 0, 0.87)\",\"padding\":\"0px\",\"settings\":{},\"title\":\"TTC_Button\",\"showTitleIcon\":false,\"iconColor\":\"rgba(0, 0, 0, 0.87)\",\"iconSize\":\"24px\",\"titleTooltip\":\"\",\"dropShadow\":false,\"enableFullscreen\":false,\"widgetStyle\":{},\"titleStyle\":{\"fontSize\":\"16px\",\"fontWeight\":400},\"showLegend\":false,\"useDashboardTimewindow\":true,\"displayTimewindow\":true,\"widgetCss\":\"\",\"pageSize\":1024,\"noDataDisplayMessage\":\"\",\"borderRadius\":\"4px\",\"configMode\":\"basic\"}"
+    },
+    "externalId" : null,
+    "resources" : null,
+    "id" : {
+      "entityType" : "WIDGET_TYPE",
+      "id" : "86e40310-eea1-11ef-8e00-e370a74757c3"
+    },
+    "scada" : false,
+    "tags" : [ "button", "action", "navigation", "navigate", "dashboard state" ]
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
